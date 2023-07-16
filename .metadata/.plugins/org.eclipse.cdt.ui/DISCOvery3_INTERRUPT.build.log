@@ -1,0 +1,23 @@
+07:40:56 **** Incremental Build of configuration Debug for project DISCOvery3_INTERRUPT ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc -o "DISCOvery3_INTERRUPT.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\DISCOvery3_INTERRUPT\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DISCOvery3_INTERRUPT.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DISCOvery3_INTERRUPT.elf
+ 
+arm-none-eabi-size   DISCOvery3_INTERRUPT.elf 
+arm-none-eabi-objdump -h -S  DISCOvery3_INTERRUPT.elf  > "DISCOvery3_INTERRUPT.list"
+arm-none-eabi-objcopy  -O ihex  DISCOvery3_INTERRUPT.elf  "DISCOvery3_INTERRUPT.hex"
+   text	   data	    bss	    dec	    hex	filename
+  32032	    152	   3600	  35784	   8bc8	DISCOvery3_INTERRUPT.elf
+arm-none-eabi-objcopy  -O binary  DISCOvery3_INTERRUPT.elf  "DISCOvery3_INTERRUPT.bin"
+Finished building: default.size.stdout
+ 
+Finished building: DISCOvery3_INTERRUPT.bin
+Finished building: DISCOvery3_INTERRUPT.hex
+ 
+ 
+Finished building: DISCOvery3_INTERRUPT.list
+ 
+
+07:40:57 Build Finished. 0 errors, 0 warnings. (took 1s.328ms)
+

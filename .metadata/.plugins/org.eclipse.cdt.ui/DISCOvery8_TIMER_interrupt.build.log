@@ -1,0 +1,10 @@
+12:05:26 **** Incremental Build of configuration Debug for project DISCOvery8_TIMER_interrupt ****
+make -j4 all 
+arm-none-eabi-size   DISCOvery8_TIMER_interrupt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  34808	    152	   3744	  38704	   9730	DISCOvery8_TIMER_interrupt.elf
+Finished building: default.size.stdout
+ 
+
+12:05:27 Build Finished. 0 errors, 0 warnings. (took 1s.8ms)
+

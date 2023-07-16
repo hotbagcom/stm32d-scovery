@@ -1,0 +1,112 @@
+2023-06-20 15:32:07,335 [INFO] I2sManager:658 - 9.6E7
+2023-06-20 15:32:07,359 [INFO] I2sManager:195 - I2S Clock Value : 9.6E7
+2023-06-20 15:32:07,360 [INFO] I2sManager:553 - AudioClock : 93750Divider : 2Odd : 0
+2023-06-20 15:32:07,488 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-06-20 15:32:07,488 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-06-20 15:32:07,490 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-06-20 15:32:07,490 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-06-20 15:32:11,822 [INFO] I2sManager:658 - 9.6E7
+2023-06-20 15:32:11,822 [INFO] I2sManager:195 - I2S Clock Value : 9.6E7
+2023-06-20 15:32:11,823 [INFO] I2sManager:553 - AudioClock : 93750Divider : 2Odd : 0
+2023-06-20 15:32:11,906 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-06-20 15:32:11,906 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-06-20 15:32:11,907 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-06-20 15:32:11,907 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-06-20 15:32:14,177 [INFO] I2sManager:658 - 9.6E7
+2023-06-20 15:32:14,177 [INFO] I2sManager:195 - I2S Clock Value : 9.6E7
+2023-06-20 15:32:14,178 [INFO] I2sManager:553 - AudioClock : 93750Divider : 2Odd : 0
+2023-06-20 15:32:14,265 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-06-20 15:32:14,265 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-06-20 15:32:14,266 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-06-20 15:32:14,266 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-06-20 15:32:16,385 [INFO] I2sManager:658 - 9.6E7
+2023-06-20 15:32:16,385 [INFO] I2sManager:195 - I2S Clock Value : 9.6E7
+2023-06-20 15:32:16,386 [INFO] I2sManager:553 - AudioClock : 93750Divider : 2Odd : 0
+2023-06-20 15:32:16,464 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-06-20 15:32:16,464 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-06-20 15:32:16,465 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-06-20 15:32:16,465 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-06-20 15:32:26,197 [INFO] I2sManager:658 - 9.6E7
+2023-06-20 15:32:26,197 [INFO] I2sManager:195 - I2S Clock Value : 9.6E7
+2023-06-20 15:32:26,198 [INFO] I2sManager:553 - AudioClock : 93750Divider : 2Odd : 0
+2023-06-20 15:32:26,263 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-06-20 15:32:26,263 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-06-20 15:32:26,263 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-06-20 15:32:26,263 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-06-20 15:33:12,628 [INFO] I2sManager:658 - 9.6E7
+2023-06-20 15:33:12,629 [INFO] I2sManager:195 - I2S Clock Value : 9.6E7
+2023-06-20 15:33:12,629 [INFO] I2sManager:553 - AudioClock : 93750Divider : 2Odd : 0
+2023-06-20 15:33:12,699 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-06-20 15:33:12,699 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-06-20 15:33:12,700 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-06-20 15:33:12,700 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-06-20 15:33:15,326 [INFO] I2sManager:658 - 9.6E7
+2023-06-20 15:33:15,327 [INFO] I2sManager:195 - I2S Clock Value : 9.6E7
+2023-06-20 15:33:15,327 [INFO] I2sManager:553 - AudioClock : 93750Divider : 2Odd : 0
+2023-06-20 15:33:15,390 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-06-20 15:33:15,390 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-06-20 15:33:15,390 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-06-20 15:33:15,391 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-06-20 16:55:37,156 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 439031704 Bytes (790626304)
+2023-06-20 16:55:44,166 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 461089344 Bytes (790626304)
+2023-06-20 16:55:44,548 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 483598232 Bytes (790626304)
+2023-06-20 16:55:45,381 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SPI
+2023-06-20 16:55:45,381 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2S
+2023-06-20 16:55:45,381 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-06-20 16:55:45,381 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-06-20 16:55:45,381 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2023-06-20 16:55:45,382 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-06-20 16:55:45,382 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-06-20 16:55:45,382 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_HOST
+2023-06-20 16:55:45,383 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-06-20 16:55:45,384 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.0.202302231600\\db\
+2023-06-20 16:55:45,395 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-06-20 16:55:45,395 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-06-20 16:55:46,065 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\DISCOvery\MXTmpFiles\license.tmp_save
+2023-06-20 16:55:46,701 [INFO] CodeEngine:279 - Generated code: C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\DISCOvery\MXTmpFiles\license.tmp
+2023-06-20 16:55:47,054 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\DISCOvery\MXTmpFiles\gpio.tmp_save
+2023-06-20 16:55:47,312 [INFO] CodeEngine:279 - Generated code: C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\DISCOvery\MXTmpFiles\gpio.tmp
+2023-06-20 16:55:47,503 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-06-20 16:55:47,550 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\DISCOvery\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2023-06-20 16:55:47,730 [INFO] CodeEngine:279 - Generated code: C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\DISCOvery\MXTmpFiles\usb_otg_fs_vars.tmp
+2023-06-20 16:55:47,743 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\DISCOvery\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2023-06-20 16:55:47,883 [INFO] CodeEngine:279 - Generated code: C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\DISCOvery\MXTmpFiles\usb_otg_fs_inc.tmp
+2023-06-20 16:55:47,912 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\DISCOvery\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2023-06-20 16:55:48,106 [INFO] CodeEngine:279 - Generated code: C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\DISCOvery\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2023-06-20 16:55:48,124 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\DISCOvery\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2023-06-20 16:55:48,311 [INFO] CodeEngine:279 - Generated code: C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\DISCOvery\MXTmpFiles\usb_otg_fs_Msp.tmp
+2023-06-20 16:55:49,296 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\DISCOvery\USB_HOST\App\usb_host.c_save
+2023-06-20 16:55:49,557 [INFO] CodeEngine:279 - Generated code: C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\DISCOvery\USB_HOST\App\usb_host.c
+2023-06-20 16:55:49,584 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\DISCOvery\USB_HOST\App\usb_host.h_save
+2023-06-20 16:55:49,802 [INFO] CodeEngine:279 - Generated code: C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\DISCOvery\USB_HOST\App\usb_host.h
+2023-06-20 16:55:49,835 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\DISCOvery\USB_HOST\Target\usbh_conf.h_save
+2023-06-20 16:55:50,094 [INFO] CodeEngine:279 - Generated code: C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\DISCOvery\USB_HOST\Target\usbh_conf.h
+2023-06-20 16:55:50,146 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\DISCOvery\USB_HOST\Target\usbh_conf.c_save
+2023-06-20 16:55:50,361 [INFO] CodeEngine:279 - Generated code: C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\DISCOvery\USB_HOST\Target\usbh_conf.c
+2023-06-20 16:55:50,381 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\DISCOvery\USB_HOST\Target\usbh_platform.c_save
+2023-06-20 16:55:50,521 [INFO] CodeEngine:279 - Generated code: C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\DISCOvery\USB_HOST\Target\usbh_platform.c
+2023-06-20 16:55:50,549 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\DISCOvery\USB_HOST\Target\usbh_platform.h_save
+2023-06-20 16:55:50,696 [INFO] CodeEngine:279 - Generated code: C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\DISCOvery\USB_HOST\Target\usbh_platform.h
+2023-06-20 16:55:50,862 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\DISCOvery\Core\Src\stm32f4xx_it.c_save
+2023-06-20 16:55:51,094 [INFO] CodeEngine:279 - Generated code: C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\DISCOvery\Core\Src\stm32f4xx_it.c
+2023-06-20 16:55:51,112 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\DISCOvery\Core\Inc\stm32f4xx_it.h_save
+2023-06-20 16:55:51,226 [INFO] CodeEngine:279 - Generated code: C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\DISCOvery\Core\Inc\stm32f4xx_it.h
+2023-06-20 16:55:51,289 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\DISCOvery\Core\Src\stm32f4xx_hal_msp.c_save
+2023-06-20 16:55:51,500 [INFO] CodeEngine:279 - Generated code: C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\DISCOvery\Core\Src\stm32f4xx_hal_msp.c
+2023-06-20 16:55:51,514 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\DISCOvery\MXTmpFiles\system.tmp_save
+2023-06-20 16:55:51,610 [INFO] CodeEngine:279 - Generated code: C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\DISCOvery\MXTmpFiles\system.tmp
+2023-06-20 16:55:51,665 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\DISCOvery\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-06-20 16:55:51,908 [INFO] CodeEngine:335 - Generated code: C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\DISCOvery\Core\Inc\stm32f4xx_hal_conf.h
+2023-06-20 16:55:52,043 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\DISCOvery\Core\Inc\main.h_save
+2023-06-20 16:55:52,219 [INFO] CodeEngine:279 - Generated code: C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\DISCOvery\Core\Inc\main.h
+2023-06-20 16:55:52,253 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\DISCOvery\Core\Src\main.c_save
+2023-06-20 16:55:52,480 [INFO] CodeEngine:279 - Generated code: C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\DISCOvery\Core\Src\main.c
+2023-06-20 16:55:53,851 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 379mS.
+2023-06-20 16:55:53,878 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-06-20 16:55:54,618 [INFO] ConfigFileManager:1483 - The Die is : DIE413
+2023-06-20 16:55:54,650 [INFO] ApiDbMcu:507 - Load IP Config File for FATFS
+2023-06-20 16:55:54,710 [INFO] ApiDbMcu:507 - Load IP Config File for FREERTOS
+2023-06-20 16:55:54,729 [INFO] ApiDbMcu:507 - Load IP Config File for LIBJPEG
+2023-06-20 16:55:54,827 [INFO] ApiDbMcu:507 - Load IP Config File for LWIP
+2023-06-20 16:55:54,901 [INFO] ApiDbMcu:507 - Load IP Config File for MBEDTLS
+2023-06-20 16:55:54,955 [INFO] ApiDbMcu:507 - Load IP Config File for USB_DEVICE

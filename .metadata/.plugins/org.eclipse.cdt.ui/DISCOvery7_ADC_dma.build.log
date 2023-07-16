@@ -1,0 +1,10 @@
+19:31:30 **** Incremental Build of configuration Debug for project DISCOvery7_ADC_dma ****
+make -j4 all 
+arm-none-eabi-size   DISCOvery7_ADC_dma.elf 
+   text	   data	    bss	    dec	    hex	filename
+  36212	    152	   3768	  40132	   9cc4	DISCOvery7_ADC_dma.elf
+Finished building: default.size.stdout
+ 
+
+19:31:30 Build Finished. 0 errors, 0 warnings. (took 436ms)
+
