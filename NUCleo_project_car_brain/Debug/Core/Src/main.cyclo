@@ -1,0 +1,15 @@
+main.c:115:5:main	1
+main.c:211:6:SystemClock_Config	3
+main.c:257:13:MX_ADC1_Init	3
+main.c:309:13:MX_CAN1_Init	2
+main.c:346:13:MX_ETH_Init	2
+main.c:395:13:MX_TIM9_Init	4
+main.c:441:13:MX_USART3_UART_Init	2
+main.c:474:13:MX_USB_OTG_FS_PCD_Init	2
+main.c:507:13:MX_DMA_Init	1
+main.c:525:13:MX_GPIO_Init	1
+main.c:588:6:StartTask01	1
+main.c:607:6:StartTask02	2
+main.c:634:6:StartTask03	2
+main.c:661:6:HAL_TIM_PeriodElapsedCallback	2
+main.c:678:6:Error_Handler	1

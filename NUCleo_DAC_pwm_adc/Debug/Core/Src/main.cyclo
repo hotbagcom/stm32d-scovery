@@ -1,0 +1,16 @@
+main.c:115:6:HAL_ADC_ConvCpltCallback	1
+main.c:127:5:main	1
+main.c:226:6:SystemClock_Config	3
+main.c:272:13:MX_ADC1_Init	5
+main.c:343:13:MX_DAC_Init	3
+main.c:383:13:MX_ETH_Init	2
+main.c:432:13:MX_TIM2_Init	7
+main.c:495:13:MX_USART3_UART_Init	2
+main.c:528:13:MX_USB_OTG_FS_PCD_Init	2
+main.c:561:13:MX_DMA_Init	1
+main.c:586:13:MX_GPIO_Init	1
+main.c:647:6:StartTask01	1
+main.c:666:6:StartTask02	1
+main.c:685:6:StartTask03	1
+main.c:705:6:HAL_TIM_PeriodElapsedCallback	2
+main.c:722:6:Error_Handler	1

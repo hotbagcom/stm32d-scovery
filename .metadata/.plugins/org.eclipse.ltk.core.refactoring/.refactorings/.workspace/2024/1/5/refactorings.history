@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;nucleo_cpp&apos;" deleteContents="true" description="Delete resource &apos;nucleo_cpp&apos;" element1="/nucleo_cpp" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1706511765893"/>&#x0A;<refactoring comment="Delete resource &apos;NUCleo2_CAN_bus&apos;" deleteContents="true" description="Delete resource &apos;NUCleo2_CAN_bus&apos;" element1="/NUCleo2_CAN_bus" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1706536940339"/>
+</session>

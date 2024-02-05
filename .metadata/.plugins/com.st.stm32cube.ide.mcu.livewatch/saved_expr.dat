@@ -1,4 +1,15 @@
-count1
-count2
-TIM1->CNT
-TIM2->CNT
+ADCbuff_disc[0]
+ADCbuff_disc[1]
+ADCbuff_disc[2]
+ADCbuff_product1[0]
+ADCbuff_product2[0]
+ADCbuff_product2[1]
+sum
+updating_index
+new_value
+adc_input
+ShmTrig_value
+length
+HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_7)
+buffer
+m_ave_buff

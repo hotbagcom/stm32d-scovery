@@ -1,0 +1,10 @@
+17:48:51 **** Incremental Build of configuration Debug for project NUCleo_ADC_dma ****
+make -j4 all 
+arm-none-eabi-size   NUCleo_ADC_dma.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17104	     20	   3676	  20800	   5140	NUCleo_ADC_dma.elf
+Finished building: default.size.stdout
+ 
+
+17:48:52 Build Finished. 0 errors, 0 warnings. (took 375ms)
+
