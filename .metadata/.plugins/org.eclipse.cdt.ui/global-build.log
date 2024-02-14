@@ -1,21 +1,191 @@
-18:38:58 **** Incremental Build of configuration Debug for project NUCleo_CAN_bus ****
+13:20:12 **** Incremental Build of configuration Debug for project NUCleo_CAN_bus ****
 make -j4 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'StartTask01':
+../Core/Src/main.c:792:4: warning: implicit declaration of function 'HAL_GPIO_WriePin'; did you mean 'HAL_GPIO_WritePin'? [-Wimplicit-function-declaration]
+  792 |    HAL_GPIO_WriePin(GPIOB, GPIO_PIN_0, GPIO_PIN_RESET);
+      |    ^~~~~~~~~~~~~~~~
+      |    HAL_GPIO_WritePin
+../Core/Src/main.c: In function 'StartTask04':
+../Core/Src/main.c:882:4: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  882 |    sprintf((char*)TXstr_Usart3,"%lu  %lu  %lu %d\n" , adc_input[0], adc_input[1], adc_input[2], BlueBtn);
+      |    ^~~~~~~
+../Core/Src/main.c:882:4: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:25:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   24 | #include "cmsis_os.h"
+  +++ |+#include <stdio.h>
+   25 | 
+../Core/Src/main.c:883:72: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  883 |    HAL_UART_Transmit(&huart3, (const unsigned * )TXstr_Usart3,  strlen(TXstr_Usart3) , 100);
+      |                                                                        ^~~~~~~~~~~~
+      |                                                                        |
+      |                                                                        unsigned char *
+In file included from ../Core/Src/main.c:23:
+c:\program files (x86)\stm32cubeide_1.12.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\arm-none-eabi\include\string.h:41:17: note: expected 'const char *' but argument is of type 'unsigned char *'
+   41 | size_t  strlen (const char *);
+      |                 ^~~~~~~~~~~~
+../Core/Src/main.c:883:31: warning: passing argument 2 of 'HAL_UART_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+  883 |    HAL_UART_Transmit(&huart3, (const unsigned * )TXstr_Usart3,  strlen(TXstr_Usart3) , 100);
+      |                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                               |
+      |                               const unsigned int *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:22:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:722:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'const unsigned int *'
+  722 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+arm-none-eabi-g++ -o "NUCleo_CAN_bus.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\NUCleo_CAN_bus\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="NUCleo_CAN_bus.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+c:\program files (x86)\stm32cubeide_1.12.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\arm-none-eabi\bin\ld.exe: ./Core/Src/main.o: in function `StartTask01':
+C:/Users/tnc/STM32CubeIDE/workspace_1.12.0/NUCleo_CAN_bus/Debug/../Core/Src/main.c:792: undefined reference to `HAL_GPIO_WriePin'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:83: NUCleo_CAN_bus.elf] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+13:20:24 **** Incremental Build of configuration Debug for project NUCleo_CAN_bus ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'StartTask04':
+../Core/Src/main.c:882:4: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  882 |    sprintf((char*)TXstr_Usart3,"%lu  %lu  %lu %d\n" , adc_input[0], adc_input[1], adc_input[2], BlueBtn);
+      |    ^~~~~~~
+../Core/Src/main.c:882:4: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:25:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   24 | #include "cmsis_os.h"
+  +++ |+#include <stdio.h>
+   25 | 
+../Core/Src/main.c:883:72: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  883 |    HAL_UART_Transmit(&huart3, (const unsigned * )TXstr_Usart3,  strlen(TXstr_Usart3) , 100);
+      |                                                                        ^~~~~~~~~~~~
+      |                                                                        |
+      |                                                                        unsigned char *
+In file included from ../Core/Src/main.c:23:
+c:\program files (x86)\stm32cubeide_1.12.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\arm-none-eabi\include\string.h:41:17: note: expected 'const char *' but argument is of type 'unsigned char *'
+   41 | size_t  strlen (const char *);
+      |                 ^~~~~~~~~~~~
+../Core/Src/main.c:883:31: warning: passing argument 2 of 'HAL_UART_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+  883 |    HAL_UART_Transmit(&huart3, (const unsigned * )TXstr_Usart3,  strlen(TXstr_Usart3) , 100);
+      |                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                               |
+      |                               const unsigned int *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:22:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:722:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'const unsigned int *'
+  722 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
 arm-none-eabi-g++ -o "NUCleo_CAN_bus.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\NUCleo_CAN_bus\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="NUCleo_CAN_bus.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 Finished building target: NUCleo_CAN_bus.elf
  
 arm-none-eabi-size   NUCleo_CAN_bus.elf 
 arm-none-eabi-objdump -h -S  NUCleo_CAN_bus.elf  > "NUCleo_CAN_bus.list"
    text	   data	    bss	    dec	    hex	filename
-  33444	     24	  23000	  56468	   dc94	NUCleo_CAN_bus.elf
+  45160	    144	  23296	  68600	  10bf8	NUCleo_CAN_bus.elf
 Finished building: default.size.stdout
  
 Finished building: NUCleo_CAN_bus.list
  
-18:39:12 **** Incremental Build of configuration Debug for project NUCleo_CAN_bus ****
+13:23:11 **** Incremental Build of configuration Debug for project NUCleo_CAN_bus ****
 make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+../Core/Src/main.c: In function 'StartTask04':
+../Core/Src/main.c:880:4: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  880 |    sprintf((char*)TXstr_Usart3,"%lu  %lu  %lu %d\n" , adc_input[0], adc_input[1], adc_input[2], BlueBtn);
+      |    ^~~~~~~
+../Core/Src/main.c:880:4: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:25:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   24 | #include "cmsis_os.h"
+  +++ |+#include <stdio.h>
+   25 | 
+../Core/Src/main.c:881:72: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  881 |    HAL_UART_Transmit(&huart3, (const unsigned * )TXstr_Usart3,  strlen(TXstr_Usart3) , 100);
+      |                                                                        ^~~~~~~~~~~~
+      |                                                                        |
+      |                                                                        unsigned char *
+In file included from ../Core/Src/main.c:23:
+c:\program files (x86)\stm32cubeide_1.12.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\arm-none-eabi\include\string.h:41:17: note: expected 'const char *' but argument is of type 'unsigned char *'
+   41 | size_t  strlen (const char *);
+      |                 ^~~~~~~~~~~~
+../Core/Src/main.c:881:31: warning: passing argument 2 of 'HAL_UART_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+  881 |    HAL_UART_Transmit(&huart3, (const unsigned * )TXstr_Usart3,  strlen(TXstr_Usart3) , 100);
+      |                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                               |
+      |                               const unsigned int *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:22:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:722:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'const unsigned int *'
+  722 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+arm-none-eabi-g++ -o "NUCleo_CAN_bus.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\NUCleo_CAN_bus\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="NUCleo_CAN_bus.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: NUCleo_CAN_bus.elf
+ 
 arm-none-eabi-size   NUCleo_CAN_bus.elf 
+arm-none-eabi-objdump -h -S  NUCleo_CAN_bus.elf  > "NUCleo_CAN_bus.list"
    text	   data	    bss	    dec	    hex	filename
-  33444	     24	  23000	  56468	   dc94	NUCleo_CAN_bus.elf
+  45160	    144	  23296	  68600	  10bf8	NUCleo_CAN_bus.elf
 Finished building: default.size.stdout
+ 
+Finished building: NUCleo_CAN_bus.list
+ 
+13:27:21 **** Incremental Build of configuration Debug for project NUCleo_CAN_bus ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-g++ -o "NUCleo_CAN_bus.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\NUCleo_CAN_bus\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="NUCleo_CAN_bus.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: NUCleo_CAN_bus.elf
+ 
+arm-none-eabi-size   NUCleo_CAN_bus.elf 
+arm-none-eabi-objdump -h -S  NUCleo_CAN_bus.elf  > "NUCleo_CAN_bus.list"
+   text	   data	    bss	    dec	    hex	filename
+  45160	    144	  23296	  68600	  10bf8	NUCleo_CAN_bus.elf
+Finished building: default.size.stdout
+ 
+Finished building: NUCleo_CAN_bus.list
+ 
+13:30:16 **** Incremental Build of configuration Debug for project NUCleo_CAN_bus ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'StartTask04':
+../Core/Src/main.c:880:4: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  880 |    sprintf((char*)TXstr_Usart3,"%lu  %lu  %lu %d\n" , adc_input[0], adc_input[1], adc_input[2], BlueBtn);
+      |    ^~~~~~~
+../Core/Src/main.c:880:4: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:25:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   24 | #include "cmsis_os.h"
+  +++ |+#include <stdio.h>
+   25 | 
+../Core/Src/main.c:881:72: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  881 |    HAL_UART_Transmit(&huart3, (const unsigned * )TXstr_Usart3,  strlen(TXstr_Usart3) , 100);
+      |                                                                        ^~~~~~~~~~~~
+      |                                                                        |
+      |                                                                        unsigned char *
+In file included from ../Core/Src/main.c:23:
+c:\program files (x86)\stm32cubeide_1.12.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\arm-none-eabi\include\string.h:41:17: note: expected 'const char *' but argument is of type 'unsigned char *'
+   41 | size_t  strlen (const char *);
+      |                 ^~~~~~~~~~~~
+../Core/Src/main.c:881:31: warning: passing argument 2 of 'HAL_UART_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+  881 |    HAL_UART_Transmit(&huart3, (const unsigned * )TXstr_Usart3,  strlen(TXstr_Usart3) , 100);
+      |                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                               |
+      |                               const unsigned int *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:22:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:722:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'const unsigned int *'
+  722 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+arm-none-eabi-g++ -o "NUCleo_CAN_bus.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\tnc\STM32CubeIDE\workspace_1.12.0\NUCleo_CAN_bus\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="NUCleo_CAN_bus.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: NUCleo_CAN_bus.elf
+ 
+arm-none-eabi-size   NUCleo_CAN_bus.elf 
+arm-none-eabi-objdump -h -S  NUCleo_CAN_bus.elf  > "NUCleo_CAN_bus.list"
+   text	   data	    bss	    dec	    hex	filename
+  45160	    144	  23296	  68600	  10bf8	NUCleo_CAN_bus.elf
+Finished building: default.size.stdout
+ 
+Finished building: NUCleo_CAN_bus.list
  
